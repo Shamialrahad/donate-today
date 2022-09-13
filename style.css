@@ -1,0 +1,165 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    height: 100vh;
+    padding-top: 50px;
+}
+/* Header  */
+.header-area{
+    background-image: linear-gradient(to bottom, rgba(144, 152, 195, 0.52), rgba(7, 0, 6, 0.73)), url(images/donation13.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.details{
+    height: 300px;
+    width: 826px;
+    padding-left: 230px;
+}
+.section-heading{
+    width: 70%;
+    margin: auto;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 35px;
+}
+.link-button{
+    background-color: #FF5959;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* donation  */
+.donation-details{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.donation-amount{
+    display: flex;
+    justify-content: space-between;
+    color: #707070;
+}
+.amount{
+    width: 136px;
+    height: 123px;
+    background-color:#FAFAFA;
+    border-radius:5px;
+}
+.highlight-amount{
+    color:#FF5959;
+    width: 136px;
+    height: 123px;
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+    border-radius: 5px;
+}
+.text-color{
+    color: #B3B3B3;
+}
+
+/* Donation Planning  */
+.donation-planing-area{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+.planning{
+    display: flex;
+    justify-content: space-between;
+}
+.food{
+    text-align: left;
+    margin: 15px;
+    padding: 30px;
+    background-color:rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+.shelter{
+    text-align: left;
+    margin: 15px;
+    padding: 30px;
+    background-color:rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+.education{
+    text-align: left;
+    margin: 15px;
+    padding: 30px;
+    background-color:#FFF4D6;
+    border-radius: 5px;
+}
+
+.half-width{
+    width: 35%;
+    margin: 5%;
+    padding: 2%;
+    float:left;
+}
+.half-width img{
+    width: 120%;
+}
+
+/* Get Update  */
+.update-area{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 150px;
+    margin: auto;
+    background-color:#FFF4D6;
+}
+.subscribe-field{
+    border-radius: 5px;
+    background-color: #ececec;
+}
+.subscribe-field input{
+    font-size: 18px;
+    padding: 15px 10px;
+    border: none;
+    background-color: #ececec;
+}
+
+.subscribe-button{
+    background-color: #FF5959;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Footer  */
+footer{
+    background-color: black;
+    text-align: center;
+}
+.footer-area{
+    padding: 20px;
+    color: white;
+}
+.footer-text{
+    font-family: Lobster;
+    font-style: italic;
+    color: #FF5959;
+}
